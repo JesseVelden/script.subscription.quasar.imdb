@@ -316,7 +316,7 @@ msgstr ""
 
 #: settings.xml:18
 msgctxt "#32061"
-msgid "Persistent Update @ 8h:"
+msgid "Persistent Update"
 msgstr ""
 
 #: settings.xml:20
@@ -426,6 +426,11 @@ msgstr ""
 #: setting.xml
 msgctxt "#32093"
 msgid "URL address (ex:http://www.example.com):"
+msgstr ""
+
+#: settings.xml:
+msgctxt "#32094"
+msgid "Update Time (in minutes):"
 msgstr ""
 
 #################################################################

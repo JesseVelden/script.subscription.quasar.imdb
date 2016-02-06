@@ -33,7 +33,7 @@ msgstr "Avertissement!\n"
 "SVP, il faut lire bien les lois locales avant de les utiliser.\n"
 "\n"
 "C'est très recommendable l'utilisation d'un fournisseur de VPN\n"
-"pour empêcher aucun problème legal dans l'avenir"
+"pour empêcher aucun problème legal dans l'avenir\n"
 
 
 #: addon.py:21
@@ -339,7 +339,7 @@ msgstr "Exécutez le service d'intégration automatique (en chaque démarrage):"
 
 #: settings.xml:18
 msgctxt "#32061"
-msgid "Persistent Update @ 8h:"
+msgid "Persistent Update"
 msgstr "Mise à jour continue"
 
 #: settings.xml:20
@@ -449,6 +449,11 @@ msgstr "mot de passe:"
 msgctxt "#32093"
 msgid "URL address (ex:http://www.example.com):"
 msgstr "Lien URL (ex: http://www.example.com):"
+
+#: settings.xml:
+msgctxt "#32094"
+msgid "Update Time (in minutes):"
+msgstr "Temps de mise à jour (en minutes):"
 
 # ################################################################
 #: TRAKT main.py:6

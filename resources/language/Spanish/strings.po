@@ -347,8 +347,8 @@ msgstr "Activar el Servicio de Integración Automática (verifica en cada arranq
 
 #: settings.xml:18
 msgctxt "#32061"
-msgid "Persistent Update @ 8h:"
-msgstr "Actualización Permanente @ 8h:"
+msgid "Persistent Update"
+msgstr "Actualización Permanente"
 
 #: settings.xml:20
 msgctxt "#32062"
@@ -457,6 +457,11 @@ msgstr "Clave:"
 msgctxt "#32093"
 msgid "URL address (ex:http://www.example.com):"
 msgstr "Dirección URL (ex: http://www.example.com):"
+
+#: settings.xml:
+msgctxt "#32094"
+msgid "Update Time (in minutes):"
+msgstr "Tiempo de Actualización (en minutos)"
 
 # ################################################################
 #: TRAKT main.py:6

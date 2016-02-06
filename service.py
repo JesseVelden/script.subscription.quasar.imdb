@@ -98,7 +98,7 @@ def update_service():
 
 if settings.value['service'] == 'true':
     sleep(int(settings.value['delayTime']))  # get the delay to allow pulsar starts
-    every = 28800  # seconds
+    every = settings.value['persistent-update-time'] * 60 # Minutes to seconds
     previous_time = time()
     settings.log("Persistent Update Service starting...")
     update_service()
